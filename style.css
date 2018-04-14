@@ -1,0 +1,101 @@
+
+header{
+	background-color: #DC143C;
+	padding: 1% 1% 1% 1%;
+}
+
+h1{
+	font-family: sans-serif;
+	color: white;
+	font-weight: normal;
+	font-size: 20px;
+	display: inline-table;
+	letter-spacing: 3px;
+	position: absolute;
+	top: 30px;
+}
+
+/*Navigator horizontal*/ 
+.Navigation {
+       list-style-type: none;
+       border-style: none;
+       margin-top: 2px;
+       margin-bottom: 2px;
+       padding-left: 10px;
+       overflow: hidden;
+       background-color: grey;
+    }
+
+li {
+       float: left; 
+       border-style: none;
+
+    }
+li a {
+       display: inline-table;
+       font-family: sans-serif;
+       color: white;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+       margin-right: 45px;
+     }
+
+
+/*main content with pictures size optimation + position*/
+
+
+.pictures img{
+	width: 550px;
+	height: 400px;
+}
+
+
+#picture2 img{
+	position: relative;
+	left: 55%;
+}
+
+#picture2 figcaption{
+	position: relative;
+	left: 55%;
+}
+
+
+#picture4 img{
+	position: relative;
+	left: 55%;
+}
+
+#picture4 figcaption{
+	position: relative;
+	left: 55%;
+}
+
+
+
+figcaption{
+	margin-top: 20px;
+	margin-bottom: 25px;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: grey;
+	font-weight: bold;
+}
+
+footer{
+	background-color: #CD5C5C;
+	padding: 0.5% 0.5% 0.5% 0.5%;
+	margin-top: 2%;
+
+}
+
+/*paragraph within the footer*/ 
+.footer p{
+	color: white;
+	size: 15px;
+	font-family: sans-serif;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
